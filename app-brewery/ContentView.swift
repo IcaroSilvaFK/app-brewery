@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello world")
+            VStack{
+                VStack{
+                    Text("Olá")
+                    Text("Icaro Vieira")
+                        .font(.system(size: 100))
+                        .fontWeight(.black)
+                        .foregroundStyle(
+                            LinearGradient(colors: [.pink,.purple,.red], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        )
+                }
+            }
+            
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.blue)
     }
 }
 

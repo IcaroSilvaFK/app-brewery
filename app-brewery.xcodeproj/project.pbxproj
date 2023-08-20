@@ -14,6 +14,8 @@
 		200261B52A92753400B3814E /* app_breweryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200261B42A92753400B3814E /* app_breweryTests.swift */; };
 		200261BF2A92753400B3814E /* app_breweryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200261BE2A92753400B3814E /* app_breweryUITests.swift */; };
 		200261C12A92753400B3814E /* app_breweryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200261C02A92753400B3814E /* app_breweryUITestsLaunchTests.swift */; };
+		203F74FA2A927E6F00A45DEF /* Students in Resources */ = {isa = PBXBuildFile; fileRef = 203F74F92A927E6F00A45DEF /* Students */; };
+		203F74FC2A927E7700A45DEF /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 203F74FB2A927E7700A45DEF /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		200261BA2A92753400B3814E /* app-breweryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-breweryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		200261BE2A92753400B3814E /* app_breweryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_breweryUITests.swift; sourceTree = "<group>"; };
 		200261C02A92753400B3814E /* app_breweryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_breweryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		203F74F92A927E6F00A45DEF /* Students */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Students; sourceTree = "<group>"; };
+		203F74FB2A927E7700A45DEF /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				200261A32A92753300B3814E /* app_breweryApp.swift */,
 				200261A52A92753300B3814E /* ContentView.swift */,
 				200261A72A92753400B3814E /* Assets.xcassets */,
+				203F74F92A927E6F00A45DEF /* Students */,
+				203F74FB2A927E7700A45DEF /* Resources */,
 				200261A92A92753400B3814E /* Preview Content */,
 			);
 			path = "app-brewery";
@@ -231,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203F74FC2A927E7700A45DEF /* Resources in Resources */,
+				203F74FA2A927E6F00A45DEF /* Students in Resources */,
 				200261AB2A92753400B3814E /* Preview Assets.xcassets in Resources */,
 				200261A82A92753400B3814E /* Assets.xcassets in Resources */,
 			);
